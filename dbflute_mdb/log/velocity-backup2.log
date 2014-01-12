@@ -1,0 +1,877 @@
+2013-12-21 11:09:07,486 - 
+2013-12-21 11:09:07,505 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-21 11:09:07,505 - ************************************************************** 
+2013-12-21 11:09:07,505 - Starting Jakarta Velocity v1.3.1
+2013-12-21 11:09:07,505 - RuntimeInstance initializing.
+2013-12-21 11:09:07,505 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-21 11:09:07,505 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:09:07,505 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:09:07,507 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-21 11:09:07,511 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:09:07,511 - FileResourceLoader : initialization starting.
+2013-12-21 11:09:07,511 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-21 11:09:07,511 - FileResourceLoader : initialization complete.
+2013-12-21 11:09:07,512 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-21 11:09:07,512 - Default ResourceManager initialization complete.
+2013-12-21 11:09:07,514 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-21 11:09:07,515 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-21 11:09:07,516 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-21 11:09:07,518 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-21 11:09:07,519 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-21 11:09:07,553 - Created: 20 parsers.
+2013-12-21 11:09:07,553 - Velocimacro : initialization starting.
+2013-12-21 11:09:07,553 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-21 11:09:07,556 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-21 11:09:07,556 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-21 11:09:07,556 - Velocimacro :  VM library template macro registration complete.
+2013-12-21 11:09:07,556 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-21 11:09:07,556 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-21 11:09:07,556 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-21 11:09:07,556 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-21 11:09:07,556 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-21 11:09:07,556 - Velocimacro : initialization complete.
+2013-12-21 11:09:07,556 - Velocity successfully started.
+2013-12-21 11:40:36,362 - 
+2013-12-21 11:40:36,384 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-21 11:40:36,385 - ************************************************************** 
+2013-12-21 11:40:36,385 - Starting Jakarta Velocity v1.3.1
+2013-12-21 11:40:36,385 - RuntimeInstance initializing.
+2013-12-21 11:40:36,385 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-21 11:40:36,385 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:40:36,385 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:40:36,388 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-21 11:40:36,391 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:40:36,391 - FileResourceLoader : initialization starting.
+2013-12-21 11:40:36,391 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-21 11:40:36,391 - FileResourceLoader : initialization complete.
+2013-12-21 11:40:36,393 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-21 11:40:36,393 - Default ResourceManager initialization complete.
+2013-12-21 11:40:36,394 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-21 11:40:36,395 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-21 11:40:36,397 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-21 11:40:36,398 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-21 11:40:36,399 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-21 11:40:36,443 - Created: 20 parsers.
+2013-12-21 11:40:36,444 - Velocimacro : initialization starting.
+2013-12-21 11:40:36,444 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-21 11:40:36,446 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-21 11:40:36,446 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-21 11:40:36,447 - Velocimacro :  VM library template macro registration complete.
+2013-12-21 11:40:36,447 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-21 11:40:36,447 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-21 11:40:36,447 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-21 11:40:36,447 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-21 11:40:36,447 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-21 11:40:36,447 - Velocimacro : initialization complete.
+2013-12-21 11:40:36,447 - Velocity successfully started.
+2013-12-21 11:42:41,187 - 
+2013-12-21 11:42:41,202 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-21 11:42:41,202 - ************************************************************** 
+2013-12-21 11:42:41,202 - Starting Jakarta Velocity v1.3.1
+2013-12-21 11:42:41,202 - RuntimeInstance initializing.
+2013-12-21 11:42:41,202 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-21 11:42:41,202 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:41,202 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:41,206 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-21 11:42:41,209 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:41,209 - FileResourceLoader : initialization starting.
+2013-12-21 11:42:41,210 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-21 11:42:41,210 - FileResourceLoader : initialization complete.
+2013-12-21 11:42:41,211 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-21 11:42:41,211 - Default ResourceManager initialization complete.
+2013-12-21 11:42:41,213 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-21 11:42:41,214 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-21 11:42:41,216 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-21 11:42:41,218 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-21 11:42:41,219 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-21 11:42:41,255 - Created: 20 parsers.
+2013-12-21 11:42:41,255 - Velocimacro : initialization starting.
+2013-12-21 11:42:41,255 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-21 11:42:41,259 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-21 11:42:41,259 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-21 11:42:41,259 - Velocimacro :  VM library template macro registration complete.
+2013-12-21 11:42:41,259 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-21 11:42:41,259 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-21 11:42:41,260 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-21 11:42:41,260 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-21 11:42:41,260 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-21 11:42:41,260 - Velocimacro : initialization complete.
+2013-12-21 11:42:41,260 - Velocity successfully started.
+2013-12-21 11:42:41,383 - ResourceManager : found doc/ControlDocument.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:41,499 - ResourceManager : found doc/html/datamodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:41,552 - ResourceManager : found doc/html/table.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:43,977 - 
+2013-12-21 11:42:43,998 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-21 11:42:43,998 - ************************************************************** 
+2013-12-21 11:42:43,998 - Starting Jakarta Velocity v1.3.1
+2013-12-21 11:42:43,998 - RuntimeInstance initializing.
+2013-12-21 11:42:43,998 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-21 11:42:43,998 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:43,998 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:44,001 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-21 11:42:44,006 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,006 - FileResourceLoader : initialization starting.
+2013-12-21 11:42:44,006 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-21 11:42:44,006 - FileResourceLoader : initialization complete.
+2013-12-21 11:42:44,008 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-21 11:42:44,008 - Default ResourceManager initialization complete.
+2013-12-21 11:42:44,010 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-21 11:42:44,011 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-21 11:42:44,012 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-21 11:42:44,015 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-21 11:42:44,016 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-21 11:42:44,056 - Created: 20 parsers.
+2013-12-21 11:42:44,056 - Velocimacro : initialization starting.
+2013-12-21 11:42:44,056 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-21 11:42:44,060 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-21 11:42:44,061 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-21 11:42:44,061 - Velocimacro :  VM library template macro registration complete.
+2013-12-21 11:42:44,061 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-21 11:42:44,061 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-21 11:42:44,061 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-21 11:42:44,061 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-21 11:42:44,061 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-21 11:42:44,061 - Velocimacro : initialization complete.
+2013-12-21 11:42:44,061 - Velocity successfully started.
+2013-12-21 11:42:44,303 - ResourceManager : found om/ControlGenerateJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,413 - ResourceManager : found om/java/allcommon/DBCurrent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,449 - ResourceManager : found om/java/allcommon/DBFluteConfig.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,457 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 148,column 41] : $df is not a valid reference.
+2013-12-21 11:42:44,457 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 149,column 46] : $df is not a valid reference.
+2013-12-21 11:42:44,458 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 902,column 59] : $PoolGuardConnectionWrapper is not a valid reference.
+2013-12-21 11:42:44,469 - ResourceManager : found om/java/allcommon/DBFluteInitializer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,479 - ResourceManager : found om/java/allcommon/DBMetaInstanceHandler.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,507 - ResourceManager : found om/java/allcommon/EntityDefinedCommonColumn.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,517 - ResourceManager : found om/java/allcommon/ImplementedBehaviorSelector.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,530 - ResourceManager : found om/java/allcommon/ImplementedCommonColumnAutoSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,537 - ResourceManager : found om/java/allcommon/ImplementedInvokerAssistant.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,552 - ResourceManager : found om/java/allcommon/ImplementedSqlClauseCreator.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,560 - ResourceManager : found om/java/allcommon/container/seasar/DBFluteDicon.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,599 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageExtendedDao} is not a valid reference.
+2013-12-21 11:42:44,599 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageBaseDao} is not a valid reference.
+2013-12-21 11:42:44,701 - ResourceManager : found om/java/bsbhv/BaseBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,780 - ResourceManager : found om/java/bsentity/BaseEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,820 - ResourceManager : found om/java/bsentity/dbmeta/DBMetaImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,837 - ResourceManager : found om/java/exbhv/ExtendedBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,840 - ResourceManager : found om/java/exentity/ExtendedEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,859 - ResourceManager : found om/java/cbean/BsConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,921 - ResourceManager : found om/java/cbean/AbstractBsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,922 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,926 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,930 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,934 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,938 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,941 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,944 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,946 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,952 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,955 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-21 11:42:44,979 - ResourceManager : found om/java/cbean/BsConditionInlineQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:44,980 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,981 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,981 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,982 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,982 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,983 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,983 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,983 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,984 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,984 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:44,984 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-21 11:42:45,025 - ResourceManager : found om/java/cbean/BsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:45,026 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,027 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,027 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,028 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,028 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,029 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,029 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,030 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,030 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,030 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,031 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-21 11:42:45,035 - ResourceManager : found om/java/cbean/NestSelectSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:45,036 - ResourceManager : found om/java/cbean/ExConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:45,037 - ResourceManager : found om/java/cbean/ExConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:48,848 - 
+2013-12-21 11:42:48,867 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-21 11:42:48,867 - ************************************************************** 
+2013-12-21 11:42:48,867 - Starting Jakarta Velocity v1.3.1
+2013-12-21 11:42:48,867 - RuntimeInstance initializing.
+2013-12-21 11:42:48,867 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-21 11:42:48,867 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:48,867 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-21 11:42:48,871 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-21 11:42:48,875 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-21 11:42:48,875 - FileResourceLoader : initialization starting.
+2013-12-21 11:42:48,875 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-21 11:42:48,875 - FileResourceLoader : initialization complete.
+2013-12-21 11:42:48,877 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-21 11:42:48,877 - Default ResourceManager initialization complete.
+2013-12-21 11:42:48,879 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-21 11:42:48,880 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-21 11:42:48,881 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-21 11:42:48,882 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-21 11:42:48,883 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-21 11:42:48,922 - Created: 20 parsers.
+2013-12-21 11:42:48,923 - Velocimacro : initialization starting.
+2013-12-21 11:42:48,923 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-21 11:42:48,926 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-21 11:42:48,926 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-21 11:42:48,926 - Velocimacro :  VM library template macro registration complete.
+2013-12-21 11:42:48,926 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-21 11:42:48,926 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-21 11:42:48,926 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-21 11:42:48,926 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-21 11:42:48,926 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-21 11:42:48,926 - Velocimacro : initialization complete.
+2013-12-21 11:42:48,926 - Velocity successfully started.
+2013-12-21 11:42:49,057 - ResourceManager : found om/ControlSql2EntityJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:16,873 - 
+2013-12-22 15:17:16,885 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-22 15:17:16,885 - ************************************************************** 
+2013-12-22 15:17:16,885 - Starting Jakarta Velocity v1.3.1
+2013-12-22 15:17:16,885 - RuntimeInstance initializing.
+2013-12-22 15:17:16,885 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-22 15:17:16,885 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:16,885 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:16,888 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-22 15:17:16,891 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:16,891 - FileResourceLoader : initialization starting.
+2013-12-22 15:17:16,891 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-22 15:17:16,891 - FileResourceLoader : initialization complete.
+2013-12-22 15:17:16,892 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-22 15:17:16,892 - Default ResourceManager initialization complete.
+2013-12-22 15:17:16,893 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-22 15:17:16,894 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-22 15:17:16,895 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-22 15:17:16,897 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-22 15:17:16,898 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-22 15:17:16,929 - Created: 20 parsers.
+2013-12-22 15:17:16,929 - Velocimacro : initialization starting.
+2013-12-22 15:17:16,929 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-22 15:17:16,932 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-22 15:17:16,932 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-22 15:17:16,932 - Velocimacro :  VM library template macro registration complete.
+2013-12-22 15:17:16,932 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-22 15:17:16,932 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-22 15:17:16,932 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-22 15:17:16,932 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-22 15:17:16,932 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-22 15:17:16,932 - Velocimacro : initialization complete.
+2013-12-22 15:17:16,932 - Velocity successfully started.
+2013-12-22 15:17:17,053 - ResourceManager : found doc/ControlDocument.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:17,160 - ResourceManager : found doc/html/datamodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:17,214 - ResourceManager : found doc/html/table.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:19,779 - 
+2013-12-22 15:17:19,793 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-22 15:17:19,793 - ************************************************************** 
+2013-12-22 15:17:19,793 - Starting Jakarta Velocity v1.3.1
+2013-12-22 15:17:19,793 - RuntimeInstance initializing.
+2013-12-22 15:17:19,793 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-22 15:17:19,793 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:19,793 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:19,795 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-22 15:17:19,797 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:19,798 - FileResourceLoader : initialization starting.
+2013-12-22 15:17:19,798 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-22 15:17:19,798 - FileResourceLoader : initialization complete.
+2013-12-22 15:17:19,800 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-22 15:17:19,800 - Default ResourceManager initialization complete.
+2013-12-22 15:17:19,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-22 15:17:19,802 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-22 15:17:19,804 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-22 15:17:19,806 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-22 15:17:19,807 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-22 15:17:19,839 - Created: 20 parsers.
+2013-12-22 15:17:19,839 - Velocimacro : initialization starting.
+2013-12-22 15:17:19,839 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-22 15:17:19,842 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-22 15:17:19,842 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-22 15:17:19,842 - Velocimacro :  VM library template macro registration complete.
+2013-12-22 15:17:19,842 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-22 15:17:19,842 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-22 15:17:19,842 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-22 15:17:19,842 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-22 15:17:19,842 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-22 15:17:19,842 - Velocimacro : initialization complete.
+2013-12-22 15:17:19,842 - Velocity successfully started.
+2013-12-22 15:17:20,076 - ResourceManager : found om/ControlGenerateJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,167 - ResourceManager : found om/java/allcommon/DBCurrent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,218 - ResourceManager : found om/java/allcommon/DBFluteConfig.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,226 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 148,column 41] : $df is not a valid reference.
+2013-12-22 15:17:20,226 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 149,column 46] : $df is not a valid reference.
+2013-12-22 15:17:20,228 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 902,column 59] : $PoolGuardConnectionWrapper is not a valid reference.
+2013-12-22 15:17:20,240 - ResourceManager : found om/java/allcommon/DBFluteInitializer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,260 - ResourceManager : found om/java/allcommon/DBMetaInstanceHandler.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,300 - ResourceManager : found om/java/allcommon/EntityDefinedCommonColumn.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,340 - ResourceManager : found om/java/allcommon/ImplementedBehaviorSelector.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,366 - ResourceManager : found om/java/allcommon/ImplementedCommonColumnAutoSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,377 - ResourceManager : found om/java/allcommon/ImplementedInvokerAssistant.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,395 - ResourceManager : found om/java/allcommon/ImplementedSqlClauseCreator.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,408 - ResourceManager : found om/java/allcommon/container/seasar/DBFluteDicon.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,462 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageExtendedDao} is not a valid reference.
+2013-12-22 15:17:20,463 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageBaseDao} is not a valid reference.
+2013-12-22 15:17:20,572 - ResourceManager : found om/java/bsbhv/BaseBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,666 - ResourceManager : found om/java/bsentity/BaseEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,727 - ResourceManager : found om/java/bsentity/dbmeta/DBMetaImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,773 - ResourceManager : found om/java/cbean/BsConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,859 - ResourceManager : found om/java/cbean/AbstractBsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,860 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,864 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,870 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,875 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,880 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,885 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,887 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,890 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,894 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,896 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,900 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-22 15:17:20,947 - ResourceManager : found om/java/cbean/BsConditionInlineQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,947 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,948 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,949 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,949 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,949 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,950 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,951 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-22 15:17:20,989 - ResourceManager : found om/java/cbean/BsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:20,990 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,991 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,992 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,993 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,993 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,994 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,994 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,995 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,995 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,996 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:20,996 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-22 15:17:21,002 - ResourceManager : found om/java/cbean/NestSelectSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:23,209 - 
+2013-12-22 15:17:23,223 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-22 15:17:23,223 - ************************************************************** 
+2013-12-22 15:17:23,223 - Starting Jakarta Velocity v1.3.1
+2013-12-22 15:17:23,223 - RuntimeInstance initializing.
+2013-12-22 15:17:23,223 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-22 15:17:23,223 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:23,223 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-22 15:17:23,225 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-22 15:17:23,228 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-22 15:17:23,229 - FileResourceLoader : initialization starting.
+2013-12-22 15:17:23,229 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-22 15:17:23,229 - FileResourceLoader : initialization complete.
+2013-12-22 15:17:23,230 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-22 15:17:23,230 - Default ResourceManager initialization complete.
+2013-12-22 15:17:23,231 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-22 15:17:23,232 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-22 15:17:23,233 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-22 15:17:23,234 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-22 15:17:23,235 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-22 15:17:23,274 - Created: 20 parsers.
+2013-12-22 15:17:23,274 - Velocimacro : initialization starting.
+2013-12-22 15:17:23,274 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-22 15:17:23,277 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-22 15:17:23,277 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-22 15:17:23,277 - Velocimacro :  VM library template macro registration complete.
+2013-12-22 15:17:23,277 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-22 15:17:23,277 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-22 15:17:23,277 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-22 15:17:23,277 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-22 15:17:23,277 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-22 15:17:23,277 - Velocimacro : initialization complete.
+2013-12-22 15:17:23,278 - Velocity successfully started.
+2013-12-22 15:17:23,405 - ResourceManager : found om/ControlSql2EntityJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:05,392 - 
+2013-12-23 13:51:05,409 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 13:51:05,409 - ************************************************************** 
+2013-12-23 13:51:05,410 - Starting Jakarta Velocity v1.3.1
+2013-12-23 13:51:05,410 - RuntimeInstance initializing.
+2013-12-23 13:51:05,410 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 13:51:05,410 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:05,410 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:05,414 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 13:51:05,418 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:05,418 - FileResourceLoader : initialization starting.
+2013-12-23 13:51:05,418 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 13:51:05,419 - FileResourceLoader : initialization complete.
+2013-12-23 13:51:05,421 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 13:51:05,421 - Default ResourceManager initialization complete.
+2013-12-23 13:51:05,423 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 13:51:05,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 13:51:05,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 13:51:05,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 13:51:05,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 13:51:05,459 - Created: 20 parsers.
+2013-12-23 13:51:05,459 - Velocimacro : initialization starting.
+2013-12-23 13:51:05,459 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 13:51:05,462 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 13:51:05,462 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 13:51:05,462 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 13:51:05,462 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 13:51:05,462 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 13:51:05,462 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 13:51:05,462 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 13:51:05,462 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 13:51:05,462 - Velocimacro : initialization complete.
+2013-12-23 13:51:05,462 - Velocity successfully started.
+2013-12-23 13:51:05,560 - ResourceManager : found doc/ControlDocument.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:05,657 - ResourceManager : found doc/html/datamodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:05,716 - ResourceManager : found doc/html/table.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:08,767 - 
+2013-12-23 13:51:08,784 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 13:51:08,784 - ************************************************************** 
+2013-12-23 13:51:08,784 - Starting Jakarta Velocity v1.3.1
+2013-12-23 13:51:08,784 - RuntimeInstance initializing.
+2013-12-23 13:51:08,784 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 13:51:08,784 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:08,784 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:08,786 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 13:51:08,789 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:08,789 - FileResourceLoader : initialization starting.
+2013-12-23 13:51:08,789 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 13:51:08,789 - FileResourceLoader : initialization complete.
+2013-12-23 13:51:08,790 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 13:51:08,790 - Default ResourceManager initialization complete.
+2013-12-23 13:51:08,791 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 13:51:08,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 13:51:08,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 13:51:08,794 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 13:51:08,796 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 13:51:08,843 - Created: 20 parsers.
+2013-12-23 13:51:08,843 - Velocimacro : initialization starting.
+2013-12-23 13:51:08,843 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 13:51:08,845 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 13:51:08,846 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 13:51:08,846 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 13:51:08,846 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 13:51:08,846 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 13:51:08,846 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 13:51:08,846 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 13:51:08,846 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 13:51:08,846 - Velocimacro : initialization complete.
+2013-12-23 13:51:08,846 - Velocity successfully started.
+2013-12-23 13:51:09,151 - ResourceManager : found om/ControlGenerateJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,271 - ResourceManager : found om/java/allcommon/DBCurrent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,320 - ResourceManager : found om/java/allcommon/DBFluteConfig.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,329 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 148,column 41] : $df is not a valid reference.
+2013-12-23 13:51:09,329 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 149,column 46] : $df is not a valid reference.
+2013-12-23 13:51:09,329 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 902,column 59] : $PoolGuardConnectionWrapper is not a valid reference.
+2013-12-23 13:51:09,343 - ResourceManager : found om/java/allcommon/DBFluteInitializer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,356 - ResourceManager : found om/java/allcommon/DBMetaInstanceHandler.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,391 - ResourceManager : found om/java/allcommon/EntityDefinedCommonColumn.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,411 - ResourceManager : found om/java/allcommon/ImplementedBehaviorSelector.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,439 - ResourceManager : found om/java/allcommon/ImplementedCommonColumnAutoSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,449 - ResourceManager : found om/java/allcommon/ImplementedInvokerAssistant.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,456 - ResourceManager : found om/java/allcommon/ImplementedSqlClauseCreator.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,467 - ResourceManager : found om/java/allcommon/container/seasar/DBFluteDicon.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,525 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageExtendedDao} is not a valid reference.
+2013-12-23 13:51:09,525 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageBaseDao} is not a valid reference.
+2013-12-23 13:51:09,629 - ResourceManager : found om/java/bsbhv/BaseBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,702 - ResourceManager : found om/java/bsentity/BaseEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,746 - ResourceManager : found om/java/bsentity/dbmeta/DBMetaImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,781 - ResourceManager : found om/java/cbean/BsConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,854 - ResourceManager : found om/java/cbean/AbstractBsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,856 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,863 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,869 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,875 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,881 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,885 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,888 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,891 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,897 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,900 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,905 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 13:51:09,955 - ResourceManager : found om/java/cbean/BsConditionInlineQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:09,956 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,957 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,959 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,959 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,960 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,961 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,961 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,961 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,962 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,962 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:09,962 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 13:51:10,005 - ResourceManager : found om/java/cbean/BsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:10,007 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,008 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,009 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,010 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,010 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,011 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,011 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,012 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,013 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,013 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,015 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 13:51:10,023 - ResourceManager : found om/java/cbean/NestSelectSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:12,575 - 
+2013-12-23 13:51:12,585 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 13:51:12,585 - ************************************************************** 
+2013-12-23 13:51:12,585 - Starting Jakarta Velocity v1.3.1
+2013-12-23 13:51:12,585 - RuntimeInstance initializing.
+2013-12-23 13:51:12,585 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 13:51:12,585 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:12,585 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 13:51:12,587 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 13:51:12,590 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 13:51:12,590 - FileResourceLoader : initialization starting.
+2013-12-23 13:51:12,590 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 13:51:12,590 - FileResourceLoader : initialization complete.
+2013-12-23 13:51:12,591 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 13:51:12,592 - Default ResourceManager initialization complete.
+2013-12-23 13:51:12,593 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 13:51:12,594 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 13:51:12,594 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 13:51:12,596 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 13:51:12,597 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 13:51:12,629 - Created: 20 parsers.
+2013-12-23 13:51:12,629 - Velocimacro : initialization starting.
+2013-12-23 13:51:12,629 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 13:51:12,632 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 13:51:12,632 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 13:51:12,632 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 13:51:12,632 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 13:51:12,632 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 13:51:12,632 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 13:51:12,632 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 13:51:12,632 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 13:51:12,632 - Velocimacro : initialization complete.
+2013-12-23 13:51:12,632 - Velocity successfully started.
+2013-12-23 13:51:12,732 - ResourceManager : found om/ControlSql2EntityJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:02,640 - 
+2013-12-23 14:09:02,651 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:09:02,651 - ************************************************************** 
+2013-12-23 14:09:02,651 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:09:02,651 - RuntimeInstance initializing.
+2013-12-23 14:09:02,651 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:09:02,651 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:02,651 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:02,653 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:09:02,655 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:02,655 - FileResourceLoader : initialization starting.
+2013-12-23 14:09:02,655 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:09:02,655 - FileResourceLoader : initialization complete.
+2013-12-23 14:09:02,657 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:09:02,657 - Default ResourceManager initialization complete.
+2013-12-23 14:09:02,657 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:09:02,658 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:09:02,659 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:09:02,661 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:09:02,662 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:09:02,690 - Created: 20 parsers.
+2013-12-23 14:09:02,690 - Velocimacro : initialization starting.
+2013-12-23 14:09:02,690 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:09:02,693 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:09:02,693 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:09:02,693 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:09:02,693 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:09:02,693 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:09:02,693 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:09:02,693 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:09:02,693 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:09:02,693 - Velocimacro : initialization complete.
+2013-12-23 14:09:02,693 - Velocity successfully started.
+2013-12-23 14:09:02,794 - ResourceManager : found doc/ControlDocument.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:02,879 - ResourceManager : found doc/html/datamodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:02,934 - ResourceManager : found doc/html/table.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:02,998 - ResourceManager : found doc/html/diffmodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,387 - 
+2013-12-23 14:09:05,410 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:09:05,410 - ************************************************************** 
+2013-12-23 14:09:05,410 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:09:05,410 - RuntimeInstance initializing.
+2013-12-23 14:09:05,410 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:09:05,410 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:05,410 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:05,412 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:09:05,414 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,414 - FileResourceLoader : initialization starting.
+2013-12-23 14:09:05,414 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:09:05,414 - FileResourceLoader : initialization complete.
+2013-12-23 14:09:05,416 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:09:05,416 - Default ResourceManager initialization complete.
+2013-12-23 14:09:05,417 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:09:05,417 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:09:05,418 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:09:05,420 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:09:05,421 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:09:05,447 - Created: 20 parsers.
+2013-12-23 14:09:05,447 - Velocimacro : initialization starting.
+2013-12-23 14:09:05,447 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:09:05,450 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:09:05,450 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:09:05,450 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:09:05,450 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:09:05,450 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:09:05,450 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:09:05,450 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:09:05,450 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:09:05,450 - Velocimacro : initialization complete.
+2013-12-23 14:09:05,450 - Velocity successfully started.
+2013-12-23 14:09:05,681 - ResourceManager : found om/ControlGenerateJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,793 - ResourceManager : found om/java/allcommon/DBCurrent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,823 - ResourceManager : found om/java/allcommon/DBFluteConfig.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,830 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 148,column 41] : $df is not a valid reference.
+2013-12-23 14:09:05,830 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 149,column 46] : $df is not a valid reference.
+2013-12-23 14:09:05,831 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 902,column 59] : $PoolGuardConnectionWrapper is not a valid reference.
+2013-12-23 14:09:05,841 - ResourceManager : found om/java/allcommon/DBFluteInitializer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,849 - ResourceManager : found om/java/allcommon/DBMetaInstanceHandler.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,879 - ResourceManager : found om/java/allcommon/EntityDefinedCommonColumn.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,895 - ResourceManager : found om/java/allcommon/ImplementedBehaviorSelector.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,910 - ResourceManager : found om/java/allcommon/ImplementedCommonColumnAutoSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,924 - ResourceManager : found om/java/allcommon/ImplementedInvokerAssistant.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,929 - ResourceManager : found om/java/allcommon/ImplementedSqlClauseCreator.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,937 - ResourceManager : found om/java/allcommon/container/seasar/DBFluteDicon.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:05,977 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageExtendedDao} is not a valid reference.
+2013-12-23 14:09:05,977 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageBaseDao} is not a valid reference.
+2013-12-23 14:09:06,118 - ResourceManager : found om/java/bsbhv/BaseBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,190 - ResourceManager : found om/java/bsentity/BaseEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,224 - ResourceManager : found om/java/bsentity/dbmeta/DBMetaImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,258 - ResourceManager : found om/java/cbean/BsConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,338 - ResourceManager : found om/java/cbean/AbstractBsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,339 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 14:09:06,345 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 14:09:06,386 - ResourceManager : found om/java/cbean/BsConditionInlineQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,387 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 14:09:06,388 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 14:09:06,419 - ResourceManager : found om/java/cbean/BsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:06,420 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 14:09:06,421 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 14:09:06,425 - ResourceManager : found om/java/cbean/NestSelectSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:09,231 - 
+2013-12-23 14:09:09,241 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:09:09,242 - ************************************************************** 
+2013-12-23 14:09:09,242 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:09:09,242 - RuntimeInstance initializing.
+2013-12-23 14:09:09,242 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:09:09,242 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:09,242 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:09:09,244 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:09:09,246 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:09:09,247 - FileResourceLoader : initialization starting.
+2013-12-23 14:09:09,247 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:09:09,247 - FileResourceLoader : initialization complete.
+2013-12-23 14:09:09,248 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:09:09,248 - Default ResourceManager initialization complete.
+2013-12-23 14:09:09,249 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:09:09,249 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:09:09,250 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:09:09,252 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:09:09,252 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:09:09,279 - Created: 20 parsers.
+2013-12-23 14:09:09,279 - Velocimacro : initialization starting.
+2013-12-23 14:09:09,279 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:09:09,289 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:09:09,289 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:09:09,289 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:09:09,289 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:09:09,289 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:09:09,289 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:09:09,289 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:09:09,289 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:09:09,289 - Velocimacro : initialization complete.
+2013-12-23 14:09:09,289 - Velocity successfully started.
+2013-12-23 14:09:09,386 - ResourceManager : found om/ControlSql2EntityJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:19,317 - 
+2013-12-23 14:28:19,338 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:28:19,338 - ************************************************************** 
+2013-12-23 14:28:19,339 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:28:19,339 - RuntimeInstance initializing.
+2013-12-23 14:28:19,339 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:28:19,339 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:19,339 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:19,342 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:28:19,347 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:19,347 - FileResourceLoader : initialization starting.
+2013-12-23 14:28:19,347 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:28:19,347 - FileResourceLoader : initialization complete.
+2013-12-23 14:28:19,350 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:28:19,350 - Default ResourceManager initialization complete.
+2013-12-23 14:28:19,352 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:28:19,353 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:28:19,354 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:28:19,355 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:28:19,356 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:28:19,383 - Created: 20 parsers.
+2013-12-23 14:28:19,383 - Velocimacro : initialization starting.
+2013-12-23 14:28:19,383 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:28:19,385 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:28:19,385 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:28:19,385 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:28:19,385 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:28:19,385 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:28:19,386 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:28:19,386 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:28:19,386 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:28:19,386 - Velocimacro : initialization complete.
+2013-12-23 14:28:19,386 - Velocity successfully started.
+2013-12-23 14:28:19,476 - ResourceManager : found doc/ControlDocument.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:19,571 - ResourceManager : found doc/html/datamodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:19,617 - ResourceManager : found doc/html/table.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:19,690 - ResourceManager : found doc/html/diffmodel.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:21,860 - 
+2013-12-23 14:28:21,872 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:28:21,872 - ************************************************************** 
+2013-12-23 14:28:21,872 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:28:21,872 - RuntimeInstance initializing.
+2013-12-23 14:28:21,872 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:28:21,872 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:21,872 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:21,874 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:28:21,876 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:21,876 - FileResourceLoader : initialization starting.
+2013-12-23 14:28:21,876 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:28:21,876 - FileResourceLoader : initialization complete.
+2013-12-23 14:28:21,877 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:28:21,877 - Default ResourceManager initialization complete.
+2013-12-23 14:28:21,878 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:28:21,879 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:28:21,880 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:28:21,881 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:28:21,882 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:28:21,917 - Created: 20 parsers.
+2013-12-23 14:28:21,917 - Velocimacro : initialization starting.
+2013-12-23 14:28:21,917 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:28:21,920 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:28:21,920 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:28:21,920 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:28:21,920 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:28:21,920 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:28:21,920 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:28:21,920 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:28:21,920 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:28:21,920 - Velocimacro : initialization complete.
+2013-12-23 14:28:21,920 - Velocity successfully started.
+2013-12-23 14:28:22,153 - ResourceManager : found om/ControlGenerateJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,235 - ResourceManager : found om/java/allcommon/DBCurrent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,272 - ResourceManager : found om/java/allcommon/DBFluteConfig.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 148,column 41] : $df is not a valid reference.
+2013-12-23 14:28:22,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 149,column 46] : $df is not a valid reference.
+2013-12-23 14:28:22,280 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/java/allcommon/DBFluteConfig.vm [line 902,column 59] : $PoolGuardConnectionWrapper is not a valid reference.
+2013-12-23 14:28:22,286 - ResourceManager : found om/java/allcommon/DBFluteInitializer.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,292 - ResourceManager : found om/java/allcommon/DBMetaInstanceHandler.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,333 - ResourceManager : found om/java/allcommon/EntityDefinedCommonColumn.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,344 - ResourceManager : found om/java/allcommon/ImplementedBehaviorSelector.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,356 - ResourceManager : found om/java/allcommon/ImplementedCommonColumnAutoSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,365 - ResourceManager : found om/java/allcommon/ImplementedInvokerAssistant.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,375 - ResourceManager : found om/java/allcommon/ImplementedSqlClauseCreator.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,383 - ResourceManager : found om/java/allcommon/container/seasar/DBFluteDicon.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,426 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageExtendedDao} is not a valid reference.
+2013-12-23 14:28:22,427 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = om/ControlGenerateJava.vm [line 1,column 1] : ${glPackageBaseDao} is not a valid reference.
+2013-12-23 14:28:22,509 - ResourceManager : found om/java/bsbhv/BaseBhv.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,568 - ResourceManager : found om/java/bsentity/BaseEntity.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,587 - ResourceManager : found om/java/bsentity/dbmeta/DBMetaImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,611 - ResourceManager : found om/java/cbean/BsConditionBean.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,676 - ResourceManager : found om/java/cbean/AbstractBsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,677 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 14:28:22,681 - RHS of #set statement is null. Context will not be modified. om/java/cbean/AbstractBsConditionQuery.vm [line 66, column 1]
+2013-12-23 14:28:22,707 - ResourceManager : found om/java/cbean/BsConditionInlineQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,708 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 14:28:22,709 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionInlineQuery.vm [line 92, column 1]
+2013-12-23 14:28:22,747 - ResourceManager : found om/java/cbean/BsConditionQuery.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:22,748 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 14:28:22,749 - RHS of #set statement is null. Context will not be modified. om/java/cbean/BsConditionQuery.vm [line 93, column 1]
+2013-12-23 14:28:22,752 - ResourceManager : found om/java/cbean/NestSelectSetupper.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:24,286 - 
+2013-12-23 14:28:24,296 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2013-12-23 14:28:24,296 - ************************************************************** 
+2013-12-23 14:28:24,296 - Starting Jakarta Velocity v1.3.1
+2013-12-23 14:28:24,296 - RuntimeInstance initializing.
+2013-12-23 14:28:24,296 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-12-23 14:28:24,296 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:24,297 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2013-12-23 14:28:24,299 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-12-23 14:28:24,301 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-12-23 14:28:24,301 - FileResourceLoader : initialization starting.
+2013-12-23 14:28:24,301 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/mydbflute/dbflute-1.0.5A/templates'
+2013-12-23 14:28:24,301 - FileResourceLoader : initialization complete.
+2013-12-23 14:28:24,303 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-12-23 14:28:24,303 - Default ResourceManager initialization complete.
+2013-12-23 14:28:24,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-12-23 14:28:24,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-12-23 14:28:24,305 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-12-23 14:28:24,307 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-12-23 14:28:24,308 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-12-23 14:28:24,335 - Created: 20 parsers.
+2013-12-23 14:28:24,335 - Velocimacro : initialization starting.
+2013-12-23 14:28:24,335 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2013-12-23 14:28:24,337 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2013-12-23 14:28:24,337 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2013-12-23 14:28:24,337 - Velocimacro :  VM library template macro registration complete.
+2013-12-23 14:28:24,337 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-12-23 14:28:24,337 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-12-23 14:28:24,337 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2013-12-23 14:28:24,337 - Velocimacro : messages on  : VM system will output logging messages
+2013-12-23 14:28:24,338 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2013-12-23 14:28:24,338 - Velocimacro : initialization complete.
+2013-12-23 14:28:24,338 - Velocity successfully started.
+2013-12-23 14:28:24,449 - ResourceManager : found om/ControlSql2EntityJava.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-01-04 13:52:15,626 - 
+2014-01-04 13:52:15,650 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2014-01-04 13:52:15,650 - ************************************************************** 
+2014-01-04 13:52:15,650 - Starting Jakarta Velocity v1.3.1
+2014-01-04 13:52:15,650 - RuntimeInstance initializing.
+2014-01-04 13:52:15,650 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2014-01-04 13:52:15,650 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2014-01-04 13:52:15,650 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2014-01-04 13:52:15,655 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-01-04 13:52:15,660 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-01-04 13:52:15,661 - FileResourceLoader : initialization starting.
+2014-01-04 13:52:15,661 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/dbflute_mdb/freegen'
+2014-01-04 13:52:15,661 - FileResourceLoader : initialization complete.
+2014-01-04 13:52:15,664 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-01-04 13:52:15,664 - Default ResourceManager initialization complete.
+2014-01-04 13:52:15,666 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-01-04 13:52:15,667 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-01-04 13:52:15,669 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-01-04 13:52:15,671 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-01-04 13:52:15,673 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-01-04 13:52:15,721 - Created: 20 parsers.
+2014-01-04 13:52:15,721 - Velocimacro : initialization starting.
+2014-01-04 13:52:15,721 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2014-01-04 13:52:15,724 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2014-01-04 13:52:15,725 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2014-01-04 13:52:15,725 - Velocimacro :  VM library template macro registration complete.
+2014-01-04 13:52:15,725 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-01-04 13:52:15,725 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-01-04 13:52:15,725 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2014-01-04 13:52:15,725 - Velocimacro : messages on  : VM system will output logging messages
+2014-01-04 13:52:15,725 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2014-01-04 13:52:15,725 - Velocimacro : initialization complete.
+2014-01-04 13:52:15,725 - Velocity successfully started.
+2014-01-04 13:52:15,751 - ResourceManager : unable to find resource 'ControlFreeGen.vm' in any resource loader.
+2014-01-04 13:52:53,112 - 
+2014-01-04 13:52:53,135 - DfFlutistLog4JLogSystem initialized using logfile './log/velocity.log'
+2014-01-04 13:52:53,135 - ************************************************************** 
+2014-01-04 13:52:53,135 - Starting Jakarta Velocity v1.3.1
+2014-01-04 13:52:53,135 - RuntimeInstance initializing.
+2014-01-04 13:52:53,135 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2014-01-04 13:52:53,135 - Trying to use logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2014-01-04 13:52:53,135 - Using logger class org.seasar.dbflute.friends.velocity.DfFlutistLog4JLogSystem
+2014-01-04 13:52:53,139 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-01-04 13:52:53,143 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-01-04 13:52:53,143 - FileResourceLoader : initialization starting.
+2014-01-04 13:52:53,143 - FileResourceLoader : adding path '/Users/n10o/Documents/workspace/memoler/dbflute_mdb/freegen'
+2014-01-04 13:52:53,143 - FileResourceLoader : initialization complete.
+2014-01-04 13:52:53,145 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-01-04 13:52:53,145 - Default ResourceManager initialization complete.
+2014-01-04 13:52:53,146 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-01-04 13:52:53,148 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-01-04 13:52:53,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-01-04 13:52:53,151 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-01-04 13:52:53,152 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-01-04 13:52:53,194 - Created: 20 parsers.
+2014-01-04 13:52:53,194 - Velocimacro : initialization starting.
+2014-01-04 13:52:53,195 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2014-01-04 13:52:53,199 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2014-01-04 13:52:53,199 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'

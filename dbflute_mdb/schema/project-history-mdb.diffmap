@@ -1,0 +1,232 @@
+map:{
+    ; 2014/01/12 15:04:32 = map:{
+        ; diffDate = 2014/01/12 15:04:32
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; NAME = map:{
+                        ; columnName = NAME
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = VARCHAR
+                            ; previous = TEXT
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 64
+                            ; previous = 65535
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/12 15:02:31 = map:{
+        ; diffDate = 2014/01/12 15:02:31
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = VARCHAR
+                            ; previous = TEXT
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 128
+                            ; previous = 65535
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/12 12:49:46 = map:{
+        ; diffDate = 2014/01/12 12:49:46
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = TEXT
+                            ; previous = CHAR
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 65535
+                            ; previous = 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/12 12:45:25 = map:{
+        ; diffDate = 2014/01/12 12:45:25
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = CHAR
+                            ; previous = BINARY
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 1
+                            ; previous = 128
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/12 11:24:46 = map:{
+        ; diffDate = 2014/01/12 11:24:46
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = BINARY
+                            ; previous = VARCHAR
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/05 23:26:49 = map:{
+        ; diffDate = 2014/01/05 23:26:49
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = VARCHAR
+                            ; previous = INT
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 128
+                            ; previous = 10
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2014/01/05 23:13:12 = map:{
+        ; diffDate = 2014/01/05 23:13:12
+        ; tableCount = map:{
+            ; next = 2
+            ; previous = 1
+        }
+        ; tableDiff = map:{
+            ; INFO = map:{
+                ; tableName = INFO
+                ; diffType = ADD
+            }
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; NAME = map:{
+                        ; columnName = NAME
+                        ; diffType = ADD
+                    }
+                    ; PASSWORD = map:{
+                        ; columnName = PASSWORD
+                        ; diffType = ADD
+                    }
+                    ; MEMBER_ID = map:{
+                        ; columnName = MEMBER_ID
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = BIGINT
+                            ; previous = INT
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 19
+                            ; previous = 10
+                        }
+                    }
+                    ; MEMBER_NAME = map:{
+                        ; columnName = MEMBER_NAME
+                        ; diffType = DELETE
+                    }
+                }
+            }
+        }
+    }
+    ; 2013/12/23 14:09:01 = map:{
+        ; diffDate = 2013/12/23 14:09:01
+        ; tableDiff = map:{
+            ; MEMBER = map:{
+                ; tableName = MEMBER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; MEMBER_ACCOUNT = map:{
+                        ; columnName = MEMBER_ACCOUNT
+                        ; diffType = DELETE
+                    }
+                    ; MEMBER_STATUS_CODE = map:{
+                        ; columnName = MEMBER_STATUS_CODE
+                        ; diffType = DELETE
+                    }
+                    ; FORMALIZED_DATETIME = map:{
+                        ; columnName = FORMALIZED_DATETIME
+                        ; diffType = DELETE
+                    }
+                    ; BIRTHDATE = map:{
+                        ; columnName = BIRTHDATE
+                        ; diffType = DELETE
+                    }
+                    ; REGISTER_DATETIME = map:{
+                        ; columnName = REGISTER_DATETIME
+                        ; diffType = DELETE
+                    }
+                    ; REGISTER_USER = map:{
+                        ; columnName = REGISTER_USER
+                        ; diffType = DELETE
+                    }
+                    ; UPDATE_DATETIME = map:{
+                        ; columnName = UPDATE_DATETIME
+                        ; diffType = DELETE
+                    }
+                    ; UPDATE_USER = map:{
+                        ; columnName = UPDATE_USER
+                        ; diffType = DELETE
+                    }
+                    ; VERSION_NO = map:{
+                        ; columnName = VERSION_NO
+                        ; diffType = DELETE
+                    }
+                }
+                ; uniqueKeyDiff = map:{
+                    ; MEMBER_ACCOUNT = map:{
+                        ; constraintName = MEMBER_ACCOUNT
+                        ; diffType = DELETE
+                    }
+                }
+            }
+        }
+    }
+}
