@@ -8,4 +8,5 @@
 
 	<!-- include dbflute.dicon if you use DBFlute -->
 	<include path="dbflute.dicon"/>
+	
 </components>

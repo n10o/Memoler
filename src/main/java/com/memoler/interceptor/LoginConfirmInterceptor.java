@@ -1,4 +1,4 @@
-package com.memoler.common;
+package com.memoler.interceptor;
 
 import javax.annotation.Resource;
 
@@ -6,18 +6,21 @@ import org.aopalliance.intercept.MethodInvocation;
 import org.seasar.framework.aop.interceptors.AbstractInterceptor;
 import org.seasar.struts.annotation.Execute;
 
+import com.memoler.dto.UserDto;
+
 public class LoginConfirmInterceptor extends AbstractInterceptor {
     private static final long serialVersionUID = 1L;
 
     @Resource
-    protected UserDataDto userDataDto;
+    protected UserDto userDto;
 
     /**
      * 割り込ませる処理を記述
      */
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
-        return (!isExecuteMethod(invocation) || isLoggedIn()) ? invocation.proceed() : "/login/";
+        System.out.println("INTO INTERCEPTER ==============");
+        return (!isExecuteMethod(invocation) || isLoggedIn()) ? invocation.proceed() : "/?redirect=true";
     }
 
     /**
@@ -30,7 +33,7 @@ public class LoginConfirmInterceptor extends AbstractInterceptor {
     }
 
     private boolean isLoggedIn() {
-        return (userDataDto != null && userDataDto != null);
+        return (userDto != null && userDto.userName != null);
     }
 
 }

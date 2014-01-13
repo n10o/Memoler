@@ -17,6 +17,9 @@
 	<html:text property="password" value="" />	
 	<s:submit property="signup" value="SignUp" />
 </s:form>
+<s:form method="POST">
+<s:submit property="logout" value="Logout" />
+</s:form>
 
 </body>
 </html>

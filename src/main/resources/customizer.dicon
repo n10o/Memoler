@@ -52,21 +52,20 @@
 		<initMethod name="addCustomizer">
 			<arg>
 				<component class="org.seasar.framework.container.customizer.AspectCustomizer">
-					<property name="interceptorName">"LoginConfirmInterceptor"</property>
+					<property name="interceptorName">"loginConfirmInterceptor"</property>
 					<property name="useLookupAdapter">true</property>
-					<!-- 処理の対象外ににしたいAction(これ以外が対象になる) -->
-					<initMethod name="addIgnoreClassPattern">
-						<arg>"com.memoler.web"</arg>
-						<arg>"IndexAction"</arg>
-					</initMethod>
-
-					<!-- 対象にしたいクラスの設定はこちら -->
+					<!-- 処理の対象外にしたいAction(これ以外が対象になる) -->
 					<!--
-					<initMethod name="addClassPattern">
-						<arg>"sample.action"</arg>
-						<arg>"OtherAction"</arg>
+					<initMethod name="addIgnoreClassPattern">
+						<arg>"com.memoler.web.IndexAction"</arg>
 					</initMethod>
 					-->
+					<!-- 対象にしたいクラスの設定 -->
+					<initMethod name="addClassPattern">
+						<arg>"com.memoler.web.login"</arg>
+						<arg>".*Action"</arg>
+					</initMethod>
+					
 				</component>
 			</arg>
 		</initMethod>

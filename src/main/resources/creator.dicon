@@ -11,4 +11,5 @@
 	<component class="org.seasar.framework.container.creator.LogicCreator"/>
 	<component class="org.seasar.framework.container.creator.HelperCreator"/>
 	<component class="org.seasar.framework.container.creator.InterceptorCreator"/>
+	<component class="org.seasar.framework.container.creator.DtoCreator"/>
 </components>

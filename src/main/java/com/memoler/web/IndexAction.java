@@ -17,12 +17,14 @@ package com.memoler.web;
 
 import javax.annotation.Resource;
 
+import org.seasar.framework.aop.annotation.RemoveSession;
 import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
 import com.memoler.dbflute.cbean.MemberCB;
 import com.memoler.dbflute.exbhv.MemberBhv;
 import com.memoler.dbflute.exentity.Member;
+import com.memoler.dto.UserDto;
 import com.memoler.logic.UserControlLogic;
 
 /**
@@ -36,6 +38,9 @@ public class IndexAction {
 
     @Resource
     protected MemberBhv memberBhv;
+
+    @Resource
+    public UserDto userDto;
 
     @Resource
     protected UserControlLogic userControlLogic; // userControlとかにするとCan not bind propertyエラーになる。
@@ -65,8 +70,15 @@ public class IndexAction {
     @Execute(validator = false)
     public String signin() {
         if (userControlLogic.doSignin(memberForm) == true) {
-            return "/login/index.jsp";
+            userDto.userName = memberForm.name;
+            return "/login/";
         }
+        return "/?redirect=true";
+    }
+
+    @Execute(validator = false)
+    @RemoveSession(name = "userDto")
+    public String logout() {
         return "/?redirect=true";
     }
 }
