@@ -3,8 +3,7 @@
 <body>
 
 <h2>Index</h2>
-#1's Member Name is ${mname}
-
+<html:errors/>
 <s:form method="POST">
 	<html:text property="name" value="" />
 	<%-- placeholderはデフォルトだと使えない。safluteはうまく使えるように設定してくれていたのか->taglibをカスタマイズすればよい --%>
@@ -16,9 +15,6 @@
 	<html:text property="name" value="" />
 	<html:text property="password" value="" />	
 	<s:submit property="signup" value="SignUp" />
-</s:form>
-<s:form method="POST">
-<s:submit property="logout" value="Logout" />
 </s:form>
 
 </body>

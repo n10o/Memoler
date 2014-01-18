@@ -17,13 +17,12 @@ package com.memoler.web;
 
 import javax.annotation.Resource;
 
-import org.seasar.framework.aop.annotation.RemoveSession;
+import org.apache.struts.action.ActionMessage;
+import org.apache.struts.action.ActionMessages;
 import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
-import com.memoler.dbflute.cbean.MemberCB;
 import com.memoler.dbflute.exbhv.MemberBhv;
-import com.memoler.dbflute.exentity.Member;
 import com.memoler.dto.UserDto;
 import com.memoler.logic.UserControlLogic;
 
@@ -49,36 +48,26 @@ public class IndexAction {
 
     @Execute(validator = false)
     public String index() {
-        MemberCB cb = new MemberCB();
-        cb.query().setMemberId_Equal((long) 1);
-        Member entity = memberBhv.selectEntity(cb);
-        if (entity == null) {
-            return "index.jsp";
-        }
-        System.out.println(entity.getName());
-        mname = entity.getName();
-
         return "index.jsp";
     }
 
-    @Execute(validator = false)
+    @Execute(validator = true, input = "index.jsp")
     public String signup() {
         userControlLogic.doSignup(memberForm);
         return "/?redirect=true";
     }
 
-    @Execute(validator = false)
+    @Execute(validator = true, validate = "validateAuth", input = "index.jsp")
     public String signin() {
-        if (userControlLogic.doSignin(memberForm) == true) {
-            userDto.userName = memberForm.name;
-            return "/login/";
-        }
-        return "/?redirect=true";
+        userDto.userName = memberForm.name;
+        return "/login/?redirect=true";
     }
 
-    @Execute(validator = false)
-    @RemoveSession(name = "userDto")
-    public String logout() {
-        return "/?redirect=true";
+    public ActionMessages validateAuth() {
+        ActionMessages errors = new ActionMessages();
+        if (userControlLogic.doSignin(memberForm) == false) {
+            errors.add("authfail", new ActionMessage("認証情報が誤っています", false));
+        }
+        return errors;
     }
 }
