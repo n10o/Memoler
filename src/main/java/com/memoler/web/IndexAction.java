@@ -15,6 +15,8 @@
  */
 package com.memoler.web;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.apache.struts.action.ActionMessage;
@@ -22,7 +24,9 @@ import org.apache.struts.action.ActionMessages;
 import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
+import com.memoler.dbflute.exbhv.InfoBhv;
 import com.memoler.dbflute.exbhv.MemberBhv;
+import com.memoler.dbflute.exentity.Info;
 import com.memoler.dto.UserDto;
 import com.memoler.logic.UserControlLogic;
 
@@ -39,6 +43,9 @@ public class IndexAction {
     protected MemberBhv memberBhv;
 
     @Resource
+    protected InfoBhv infoBhv;
+
+    @Resource
     public UserDto userDto;
 
     @Resource
@@ -46,14 +53,15 @@ public class IndexAction {
 
     public String mname;
 
+    public List<Info> infoList;
+
     @Execute(validator = false)
     public String index() {
         return "index.jsp";
     }
 
-    @Execute(validator = true, input = "index.jsp")
+    @Execute(validator = true, validate = "validateUniqueUser", input = "index.jsp")
     public String signup() {
-        userControlLogic.doSignup(memberForm);
         return "/?redirect=true";
     }
 
@@ -65,8 +73,17 @@ public class IndexAction {
 
     public ActionMessages validateAuth() {
         ActionMessages errors = new ActionMessages();
-        if (userControlLogic.doSignin(memberForm) == false) {
+        userDto.id = userControlLogic.doSignin(memberForm);
+        if (userDto.id == null) {
             errors.add("authfail", new ActionMessage("認証情報が誤っています", false));
+        }
+        return errors;
+    }
+
+    public ActionMessages validateUniqueUser() {
+        ActionMessages errors = new ActionMessages();
+        if (userControlLogic.doSignup(memberForm) == false) {
+            errors.add("notunique", new ActionMessage("既に指定されたユーザが存在しています", false));
         }
         return errors;
     }

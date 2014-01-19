@@ -15,7 +15,7 @@ public class UserControlLogic {
 
     private String key = "SockS3af3";
 
-    public boolean doSignin(MemberForm memberForm) {
+    public Long doSignin(MemberForm memberForm) {
         MemberCB cb = new MemberCB();
         cb.query().setName_Equal(memberForm.name);
         Member entity = memberBhv.selectEntity(cb);
@@ -31,14 +31,21 @@ public class UserControlLogic {
             System.out.println("input" + inputEncryptPassword);
 
             if (entity.getPassword().equals(hexalize(inputEncryptPassword))) {
-                return true;
+                return entity.getMemberId();
             }
         }
 
-        return false;
+        return null;
     }
 
     public Boolean doSignup(MemberForm memberForm) {
+        MemberCB cb = new MemberCB();
+        cb.query().setName_Equal(memberForm.name);
+        Member entity = memberBhv.selectEntity(cb);
+        if (entity != null) {
+            return false;
+        }
+
         Member member = new Member();
         member.setName(memberForm.name);
 
