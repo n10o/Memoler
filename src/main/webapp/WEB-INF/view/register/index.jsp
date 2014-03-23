@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/memoler/css/common.css">
 <script src="/memoler/js/jquery-1.10.2.min.js"></script>
-<title>Info Depot MyPage</title>
-<meta name="description" content="マイページ">
-<meta name="keywords" content="インフォ">
+<title>Info Depot 登録ページ</title>
 </head>
 <body>
 	<div id="wrapper">
@@ -15,10 +13,8 @@
 			Info Depot. This is header.
 		</header>
 		
-
 		<section id="title">
-			<h2>MyPage</h2>
-			Welcome ${userDto.userName}. UserId:${userDto.id}.
+			<h2>登録</h2>
 		</section>
 		
 		<section id="menu">
@@ -30,12 +26,6 @@
 
 		<section id="contents">
 			<table>
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>Name</th>
-					</tr>
-				</thead>
 				<tbody>
 					<c:forEach var="infoBean" items="${infoBeanList}">
 						<tr>

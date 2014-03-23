@@ -9,5 +9,4 @@ public class MemberForm {
     @Required
     @Maxlength(maxlength = 10)
     public String password;
-
 }

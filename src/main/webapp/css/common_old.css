@@ -1,0 +1,64 @@
+@CHARSET "utf-8";
+
+body {
+	font: 16px/20px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'メイリオ',
+		Meiryo, Helvetica, Arial, Sans-Serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#welcome {
+	
+}
+
+#register {
+	width: 670px;
+	float: left;
+	margin-right: 30px;
+}
+
+#display {
+	width: 260px;
+	float: left;
+}
+
+footer:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header{
+     margin: 30px 0 15px;
+     overflow: hidden;
+}
+
+header .logo {
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav li {
+	display: inline;
+	margin-left: 30px;
+}
+
+nav a {
+	color: #666;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #69c;
+}
+
+h2 {
+	font-size: 1.5em;
+}

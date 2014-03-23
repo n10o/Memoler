@@ -15,20 +15,24 @@
  */
 package com.memoler.web;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
 
 import org.apache.struts.action.ActionMessage;
 import org.apache.struts.action.ActionMessages;
+import org.seasar.framework.aop.annotation.RemoveSession;
 import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
+import com.memoler.dbflute.cbean.InfoCB;
 import com.memoler.dbflute.exbhv.InfoBhv;
 import com.memoler.dbflute.exbhv.MemberBhv;
 import com.memoler.dbflute.exentity.Info;
 import com.memoler.dto.UserDto;
 import com.memoler.logic.UserControlLogic;
+import com.memoler.web.login.InfoBean;
 
 /**
  * @author n10o
@@ -51,13 +55,43 @@ public class IndexAction {
     @Resource
     protected UserControlLogic userControlLogic; // userControlとかにするとCan not bind propertyエラーになる。
 
-    public String mname;
+    public String name; //ユーザ名表示用
 
-    public List<Info> infoList;
+    public List<InfoBean> infoBeanList;
 
     @Execute(validator = false)
     public String index() {
+        if (userDto.id == null) {
+            return "login.jsp";
+        }
+        name = userDto.userName;
+        displayInfo();
         return "index.jsp";
+    }
+
+    private void displayInfo() {
+        InfoCB cb = new InfoCB();
+        cb.query().setMemberId_Equal(userDto.id);
+        cb.query().addOrderBy_InfoId_Desc();
+        List<Info> infoList = infoBhv.selectList(cb);
+
+        infoBeanList = new ArrayList<InfoBean>();
+        for (Info info : infoList) {
+            InfoBean bean = new InfoBean();
+            bean.infoName = info.getInfoName();
+            bean.infoId = info.getInfoId();
+            System.out.println(bean.infoName);
+            System.out.println(bean.infoId);
+            infoBeanList.add(bean);
+            System.out.println("hoge");
+        }
+
+    }
+
+    @Execute(validator = false)
+    @RemoveSession(name = "userDto")
+    public String logout() {
+        return "/?redirect=true";
     }
 
     @Execute(validator = true, validate = "validateUniqueUser", input = "index.jsp")
@@ -68,9 +102,10 @@ public class IndexAction {
     @Execute(validator = true, validate = "validateAuth", input = "index.jsp")
     public String signin() {
         userDto.userName = memberForm.name;
-        return "/login/?redirect=true";
+        return "/?redirect=true";
     }
 
+    ///////////// ERROR VALIDATION
     public ActionMessages validateAuth() {
         ActionMessages errors = new ActionMessages();
         userDto.id = userControlLogic.doSignin(memberForm);
