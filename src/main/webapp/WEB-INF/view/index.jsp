@@ -11,7 +11,7 @@
 <body>
 	<div id="wrapper">
 		<header>
-			Info Depot.
+			Info Depot. Test
 		</header>
 		<section id="title">
 			<h2>MyPage</h2>
